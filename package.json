@@ -1,0 +1,8 @@
+{
+  "name": "supergateway-bridge",
+  "version": "1.0.0",
+  "description": "Bridge between TypingMind (SSE) and Ombre Brain (Streamable HTTP)",
+  "scripts": {
+    "start": "npx -y supergateway --streamableHttp https://ombre-brain-7o5u.onrender.com/mcp --outputTransport sse --port $PORT --ssePath /sse --messagePath /message"
+  }
+}
